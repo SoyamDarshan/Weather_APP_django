@@ -12,6 +12,7 @@ def view_data(request):
     end_date_query = end_date + '-01'
     metric = request.GET.get('metric')
     country = request.GET.get('country')
+
     # fetch values according to metric
     #    filter according to country
 
